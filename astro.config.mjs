@@ -27,10 +27,9 @@ export default defineConfig({
     tailwind(),
     sitemap({
       i18n: {
-        defaultLocale: "en", // All urls that don't contain `fr` after `https://screwfast.uk/` will be treated as default locale, i.e. `en`
+        defaultLocale: "es", // All urls that don't contain `fr` after `https://screwfast.uk/` will be treated as default locale, i.e. `en`
         locales: {
-          en: "en", // The `defaultLocale` value must present in `locales` keys
-          fr: "fr",
+          es: "es", // The `defaultLocale` value must present in `locales` keys
         },
       },
     }),
@@ -39,8 +38,8 @@ export default defineConfig({
       defaultLocale: "root",
       locales: {
         root: {
-          label: "English",
-          lang: "en",
+          label: "Español",
+          lang: "es",
         },
         de: { label: "Deutsch", lang: "de" },
         es: { label: "Español", lang: "es" },

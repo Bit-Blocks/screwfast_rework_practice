@@ -15,7 +15,7 @@ export const SEO = {
   structuredData: {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    inLanguage: "en-US",
+    inLanguage: "es",
     "@id": SITE.url,
     url: SITE.url,
     name: SITE.title,
@@ -30,7 +30,7 @@ export const SEO = {
 };
 
 export const OG = {
-  locale: "en_US",
+  locale: "es",
   type: "website",
   url: SITE.url,
   title: `${SITE.title}: : Hardware Tools & Construction Services`,
